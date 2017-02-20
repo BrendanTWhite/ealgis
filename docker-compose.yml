@@ -7,7 +7,7 @@ data:
 
 # shares volume with other images so we can use COPY
 db:
-  image: angrygoat/postgis:latest
+  image: mdillon/postgis:9.6
   environment:
     - POSTGRES_USER=ealgis
     - POSTGRES_PASSWORD=ealgis
