@@ -1,6 +1,6 @@
 import json
 from django.contrib.auth.models import User
-from .models import (
+from ealgis_data_schema.schema_v1 import (
     MapDefinition)
 from rest_framework import serializers
 from rest_framework.exceptions import ValidationError
